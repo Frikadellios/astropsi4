@@ -1,0 +1,25 @@
+{
+  "name": "",
+  "type": "module",
+  "version": "0.0.1",
+  "scripts": {
+    "dev": "bunx tinacms dev -c \"astro dev --port 8080\"",
+    "start": "astro dev",
+    "build": "bunx tinacms build -c \"astro build --port 8080\"",
+    "preview": "astro preview",
+    "astro": "astro"
+  },
+  "dependencies": {
+    "@astrojs/check": "^0.4.1",
+    "@astrojs/mdx": "^2.1.0",
+    "@astrojs/rss": "^4.0.4",
+    "@astrojs/sitemap": "^3.0.5",
+    "astro": "^4.2.6",
+    "tinacms": "^1.5.28",
+    "typescript": "^5.3.3"
+  },
+  "devDependencies": {
+    "@tinacms/cli": "^1.5.39",
+    "@types/node": "^20.11.10"
+  }
+}
